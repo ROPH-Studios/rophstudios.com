@@ -5,7 +5,7 @@ at https://rophstudios.com.
 
 - `index.html`: the studio home page and app list
 - `furniture-store-games/`: game page and privacy policy (the Play Store privacy URL)
-- `clay-coach/`: privacy policy and account-deletion page (both needed for its Play listing)
+- `clay-coach/`: privacy policy (Clay Coach is still in development)
 - `assets/`: stylesheet, logo, icons and screenshots
 
 System fonts only and no scripts or third-party requests, so the site itself sets no cookies and
