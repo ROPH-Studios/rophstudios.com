@@ -71,8 +71,10 @@ section { padding: 36px 0; border-top: 1px solid var(--line); }
 }
 .badge.wip { background: rgba(169, 176, 186, 0.14); color: var(--muted); }
 
-.shots { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin-top: 20px; }
-.shots img { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--line); }
+.shots { display: grid; gap: 18px 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); margin-top: 20px; }
+.shots figure { margin: 0; }
+.shots img { display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--line); }
+.shots figcaption { color: var(--muted); font-size: 14px; margin-top: 6px; }
 
 /* Long-form pages (privacy etc.) */
 .doc { max-width: 720px; padding-bottom: 48px; }
