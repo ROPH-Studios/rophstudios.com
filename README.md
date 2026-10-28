@@ -5,8 +5,9 @@ at https://rophstudios.com.
 
 - `index.html`: the studio home page and app list
 - `furniture-store-games/`: game page and privacy policy (the Play Store privacy URL)
-- `_drafts/`: pages not published yet (Jekyll skips folders starting with `_`), e.g. Clay Coach's
-  privacy policy, to move to `clay-coach/privacy.html` when the app nears release
+- `clay-coach/`: Clay Coach's privacy policy and terms of use (linked from the app's sign-in screens
+  and About)
+- `_drafts/` (when present): pages not published yet; Jekyll skips folders starting with `_`
 - `assets/`: stylesheet, logo, icons and screenshots
 
 System fonts only and no scripts or third-party requests, so the site itself sets no cookies and
