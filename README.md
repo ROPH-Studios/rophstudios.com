@@ -5,6 +5,7 @@ at https://rophstudios.com.
 
 - `index.html`: the studio home page and app list
 - `furniture-store-games/`: game page and privacy policy (the Play Store privacy URL)
+- `seven-feathers/`: game page and privacy policy (linked from the game's grown-ups area)
 - `clay-coach/`: Clay Coach's privacy policy and terms of use (linked from the app's sign-in screens
   and About)
 - `_drafts/` (when present): pages not published yet; Jekyll skips folders starting with `_`
