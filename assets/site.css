@@ -81,6 +81,9 @@ section { padding: 36px 0; border-top: 1px solid var(--line); }
 .doc h1 { font-size: 34px; line-height: 1.2; margin: 12px 0 4px; }
 .doc h2 { font-size: 22px; margin: 32px 0 8px; }
 .doc .meta { color: var(--muted); margin: 0 0 24px; }
+/* Official badge art has its own padding, so pull it in to line up with the text. */
+.doc .store { margin: 4px 0 8px -12px; }
+.doc .store img { display: block; width: 200px; height: auto; }
 .doc li { margin: 4px 0; }
 .doc .card {
   background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
